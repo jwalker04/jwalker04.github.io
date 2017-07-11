@@ -1,3 +1,7 @@
+/* http://flatcolors.net/palette/757-carbon-flat-colorful# */
+/* http://flatcolors.net/palettes.php */
+
+
 body{
     margin: 0;
     padding: 0;
@@ -26,9 +30,11 @@ p {
     font-size: 40px;
     margin: 0;
     padding-top: 30px;
+    color: white;
 }
 #top-banner-text {
     font-size: 125px;
+    color: white;
 }
 .c-circle{
     width: auto;
@@ -73,9 +79,9 @@ p {
     position: center;
     margin-left: 25%;
     margin-right: 25%;
-    color: black;
+    color: white;
     border-style: double;
-    border-color: black;
+    border-color: white;
 }
 .hr-divider {
   margin-top: 75px;
@@ -100,6 +106,20 @@ p {
 }
 .jumbotron p{
   font-size: 18px;
+}
+.navbar-default{
+    background-color : #323A45;
+    border-color: transparent;
+}
+
+/* Bootrstrap override */
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus{
+    color: #1FBBA6;
+}
+/* Bootrstrap override */
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus{
+  color: #1FBBA6;
+  text-decoration: none;
 }
 .nav-contents {
     color: white;
@@ -154,7 +174,13 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 0;    
+    background-color: rgba(50, 58, 69, 0.85);
+}
+.top-banner-background {
+    padding-bottom: 0;
+    background-size: cover;
+    background-image: url("../images/Programming-background.jpg");
 }
 .vs-circle {
     width: auto;
