@@ -2,14 +2,14 @@
 
 ## TODO:
 
-* About me Section
-* Resize images to perfect circles
-* Contact Section
-* Link to Resume
-* Color scheme?
+* About me Section - Details
+* Resize images to perfect circles - Eh remove them
+* Contact Section 
+* Link to Resume 
+* Color scheme? Getting there -> http://flatcolors.net/palette/757-carbon-flat-colorful#  http://flatcolors.net/palettes.php
 * Links to Social Media? -> (LinkedIn...)
-* Title Background
-* 
+* Make title background image fit to screen size
+* Frosted Glass Navbar
 
 
 ## Copyright and License

@@ -6,7 +6,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Oxygen', serif;
-
+    color: white;
+    background-color: #323A45;
 }
 h1 {
     margin: 0;
@@ -16,6 +17,13 @@ h1 {
     padding-bottom: 40px;
 }
 h2 {
+    font-size: 68px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    color: white;
+}
+h3 {
     padding-bottom: 20px;
 }
 header {
@@ -31,10 +39,12 @@ p {
     margin: 0;
     padding-top: 30px;
     color: white;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
 }
 #top-banner-text {
     font-size: 125px;
     color: white;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
 }
 .c-circle{
     width: auto;
@@ -50,9 +60,12 @@ p {
 .col-wrap {
     overflow: hidden;
 }
-.div-alternate {
-  margin-top: 75px;
+
+.div-alternate
+{
+    background-color: #00AFD1;
 }
+
 .div-header {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -107,18 +120,23 @@ p {
 .jumbotron p{
   font-size: 18px;
 }
+.jumbotron {
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
 .navbar-default{
     background-color : #323A45;
     border-color: transparent;
+    opacity: .96;
 }
 
 /* Bootrstrap override */
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus{
-    color: #1FBBA6;
+    color: #00AFD1;
 }
 /* Bootrstrap override */
 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus{
-  color: #1FBBA6;
+  color: #00AFD1;
   text-decoration: none;
 }
 .nav-contents {
@@ -197,6 +215,12 @@ p {
     margin: 0 auto;
     padding: 0;
     text-align: center;
+}
+
+@media screen and (min-width: 768px){
+    .jumbotron { 
+        padding-top: 0px;
+    }
 }
 
 @media (max-width: 992px) {
