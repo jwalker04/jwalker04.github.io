@@ -46,6 +46,9 @@ p {
     color: white;
     text-shadow: 4px 4px 0px rgba(0,0,0,0.2);
 }
+.about-section{
+    margin: 40px 0px 40px 0px;    
+}
 .c-circle{
     width: auto;
     height: 100%;
@@ -121,8 +124,10 @@ p {
   font-size: 18px;
 }
 .jumbotron {
-    margin-bottom: 0px;
+    margin: auto;
     padding-top: 0px;
+    height: 100%;
+    width: 100%;
 }
 .navbar-default{
     background-color : #323A45;
@@ -138,6 +143,9 @@ p {
 .navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus{
   color: #00AFD1;
   text-decoration: none;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
 }
 .nav-contents {
     color: white;
@@ -187,19 +195,21 @@ p {
 .top-banner{
     text-align: center;
     padding-top: 200px;
-    padding-bottom: 200px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;    
+    height: 100%;
+    margin: auto;
     background-color: rgba(50, 58, 69, 0.85);
+}
+#intro .top-banner-background{
+        background-image: url("../images/Programming-background.jpg");
 }
 .top-banner-background {
     padding-bottom: 0;
     background-size: cover;
-    background-image: url("../images/Programming-background.jpg");
+    width: 100%;
+    height: 101vh;
+    min-height: 100%
 }
+
 .vs-circle {
     width: auto;
     height: 100%;
@@ -217,13 +227,24 @@ p {
     text-align: center;
 }
 
-@media screen and (min-width: 768px){
+.temp-profile-circle
+{
+    width: auto;
+    height: 100%;
+    display: block;
+    margin-left: -8px;
+}
+
+@media screen and (max-width: 768px){
     .jumbotron { 
         padding-top: 0px;
     }
+    .navbar-nav {
+        margin: 0px;
+    }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
     .col {
         margin-bottom: 20px;
         padding-bottom: 0;
