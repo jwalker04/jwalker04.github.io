@@ -8,9 +8,6 @@
 * Link to Resume 
 * Color scheme? Getting there -> http://flatcolors.net/palette/757-carbon-flat-colorful#  http://flatcolors.net/palettes.php
 * Links to Social Media? -> (LinkedIn...)
-* Make title background image fit to screen size
-* Frosted Glass Navbar
-
 
 ## Copyright and License
 
